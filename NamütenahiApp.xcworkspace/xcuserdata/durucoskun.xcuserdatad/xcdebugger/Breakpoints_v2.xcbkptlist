@@ -14,9 +14,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "MakeYourDesignView"
-            landmarkType = "3">
+            endingLineNumber = "22">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
@@ -77,9 +75,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "MakeYourDesignView"
-            landmarkType = "3">
+            endingLineNumber = "14">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
@@ -155,9 +151,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "viewDidAppear(_:)"
-            landmarkType = "7">
+            endingLineNumber = "32">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
