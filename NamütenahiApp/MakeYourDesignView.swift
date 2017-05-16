@@ -12,8 +12,10 @@ import Firebase
 
 class MakeYourDesignView: UIViewController {
     
+    @IBOutlet weak var ProductImage: UIView!
     
     
+    @IBOutlet weak var ProductNameLabel: UILabel!
     
     
     
