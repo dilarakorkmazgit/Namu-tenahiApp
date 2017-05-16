@@ -9,5 +9,6 @@ target 'NamütenahiApp' do
 
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
+pod 'Firebase/Storage'
 
 end
