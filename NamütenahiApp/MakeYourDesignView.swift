@@ -11,6 +11,7 @@ import UIKit
 import Firebase
 
 class MakeYourDesignView: UIViewController {
+<<<<<<< Updated upstream
     
     @IBOutlet weak var ProductImage: UIView!
     
@@ -18,6 +19,16 @@ class MakeYourDesignView: UIViewController {
     
     @IBOutlet weak var ProductNameLabel: UILabel!
 
+=======
+    let storage = FIRStorage.storage()
+    
+    
+    
+    
+    
+    
+    
+>>>>>>> Stashed changes
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
