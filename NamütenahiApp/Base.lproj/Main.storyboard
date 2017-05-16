@@ -164,7 +164,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="kendi tasarımını yap"/>
                                 <connections>
+<<<<<<< HEAD
                                     <segue destination="ZS9-4d-mHQ" kind="show" id="gXk-72-kr4"/>
+=======
+                                    <segue destination="H2L-K0-Wos" kind="show" id="ldM-6x-xp0"/>
+>>>>>>> origin/master
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5RA-Sh-ckR">
@@ -187,43 +191,36 @@
             </objects>
             <point key="canvasLocation" x="1669.5999999999999" y="785.75712143928047"/>
         </scene>
-        <!--MakeYourDesign-->
-        <scene sceneID="7HX-HA-5je">
+        <!--Make Your Design View-->
+        <scene sceneID="Ncl-7S-4P7">
             <objects>
-                <viewController title="MakeYourDesign" id="ZS9-4d-mHQ" customClass="MakeYourDesignView" customModule="Namu_tenahiApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="H2L-K0-Wos" customClass="MakeYourDesignView" customModule="Namu_tenahiApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="08h-nl-2Ux"/>
-                        <viewControllerLayoutGuide type="bottom" id="3aj-8S-7A5"/>
+                        <viewControllerLayoutGuide type="top" id="bpq-xS-KKe"/>
+                        <viewControllerLayoutGuide type="bottom" id="dEo-dv-N5t"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ZIf-d5-qTX">
+                    <view key="view" contentMode="scaleToFill" id="Oal-Cn-izS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select Your Product" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6n-mG-evd">
-                                <rect key="frame" x="111" y="41" width="153" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="155" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Xea-N3-Emj">
-                                <rect key="frame" x="0.0" y="83" width="375" height="584"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="173" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="d9q-8T-uYc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="155" id="ERu-n5-dry">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="155"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="mug" rowHeight="173" id="3Y8-2K-ZFr" customClass="MugTableViewCell" customModule="Namu_tenahiApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="173"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ERu-n5-dry" id="FBe-OH-JQz">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="155"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3Y8-2K-ZFr" id="aRt-eB-xil">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="173"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ELO-8W-cup">
-                                                    <rect key="frame" x="8" y="13" width="113" height="128"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jeO-ld-QGZ">
+                                                    <rect key="frame" x="23" y="22" width="119" height="128"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A6K-zd-3zH">
-                                                    <rect key="frame" x="203" y="67" width="42" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EeM-YA-0SR">
+                                                    <rect key="frame" x="263" y="76" width="42" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -231,6 +228,10 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="mugImage" destination="jeO-ld-QGZ" id="QQV-MF-5mU"/>
+                                            <outlet property="mugLabel" destination="EeM-YA-0SR" id="hiJ-j7-gzt"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -238,13 +239,17 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+<<<<<<< HEAD
                         <outlet property="TableView" destination="Xea-N3-Emj" id="Oqf-RR-epo"/>
                         <outlet property="productImage" destination="ELO-8W-cup" id="s5h-Kx-l3i"/>
+=======
+                        <outlet property="tableView" destination="d9q-8T-uYc" id="kbV-Lc-2Cx"/>
+>>>>>>> origin/master
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hfH-x0-1la" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3z1-5e-hGh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2517.5999999999999" y="785.75712143928047"/>
+            <point key="canvasLocation" x="2493.5999999999999" y="789.35532233883066"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IU3-kU-9HR">
