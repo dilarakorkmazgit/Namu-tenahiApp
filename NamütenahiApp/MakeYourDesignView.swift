@@ -10,48 +10,16 @@
 import UIKit
 import Firebase
 
-<<<<<<< HEAD
-class MakeYourDesignView: UIViewController {
 
-    
-    @IBOutlet weak var productImage: UIImageView!
-    //@IBOutlet weak var ProductImage: UIView!
-    
-    @IBOutlet weak var TableView: UITableView!
-    
-    @IBOutlet weak var ProductNameLabel: UILabel!
 
+class MakeYourDesignView: UIViewController{
 
     let storage = FIRStorage.storage()
-    
-    
-    
-    override func viewDidAppear(_ animated: Bool) {
-        for number in 0...3{
-=======
-class MakeYourDesignView: UIViewController{
->>>>>>> origin/master
-    
-           let reference = storage.reference(forURL: "gs://namutenahiapp.appspot.com/MUGS/mug \(number).jpg")
-            reference.data(withMaxSize: 1*1024*1024){
-                (data,error) -> Void in
-                
-                let picture = UIImage(data:data!)
-                self.productImage.image=picture
-            }
-            
-        }
-        
-    }
-    
     @IBOutlet weak var mugCell: MugTableViewCell!
     
     @IBOutlet weak var tableView: UITableView!
     
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -59,8 +27,21 @@ class MakeYourDesignView: UIViewController{
         
         
         
-        
                
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+    for number in 0...3{
+            
+            let reference = storage.reference(forURL: "gs://namutenahiapp.appspot.com/MUGS/mug \(number).jpg")
+            reference.data(withMaxSize: 1*1024*1024){
+                (data,error) -> Void in
+                
+                let picture = UIImage(data:data!)
+                self.mugCell.mugImage.image=picture
+            }
+            
+        }
     }
     
     func numberOfSectionsInTableView(in tableView : UITableView)-> Int{
