@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Namu&#x308;tenahiApp/MakeYourDesignView.swift"
+            timestampString = "516636268.458136"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "MakeYourDesignView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Namu_tenahiApp.MakeYourDesignView.storage.getter : __ObjC.FIRStorage"
+                  moduleName = "Namu&#x308;tenahiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/Namu-tenahiApp/Namu%CC%88tenahiApp/MakeYourDesignView.swift"
+                  timestampString = "516637668.137098"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Namu_tenahiApp.MakeYourDesignView.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Namu_tenahiApp.MakeYourDesignView"
+                  moduleName = "Namu&#x308;tenahiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/Namu-tenahiApp/Namu%CC%88tenahiApp/MakeYourDesignView.swift"
+                  timestampString = "516637668.164852"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Namu_tenahiApp.MakeYourDesignView.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Namu_tenahiApp.MakeYourDesignView&gt;"
+                  moduleName = "Namu&#x308;tenahiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/Namu-tenahiApp/Namu%CC%88tenahiApp/MakeYourDesignView.swift"
+                  timestampString = "516637668.186099"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Namu&#x308;tenahiApp/MakeYourDesignView.swift"
+            timestampString = "516636272.330496"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "MakeYourDesignView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Namu_tenahiApp.MakeYourDesignView.ProductImage.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIView&gt;"
+                  moduleName = "Namu&#x308;tenahiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/Namu-tenahiApp/Namu%CC%88tenahiApp/MakeYourDesignView.swift"
+                  timestampString = "516637668.240726"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Namu_tenahiApp.MakeYourDesignView.ProductImage.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIView&gt;"
+                  moduleName = "Namu&#x308;tenahiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/Namu-tenahiApp/Namu%CC%88tenahiApp/MakeYourDesignView.swift"
+                  timestampString = "516637668.261633"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Namu_tenahiApp.MakeYourDesignView.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Namu_tenahiApp.MakeYourDesignView"
+                  moduleName = "Namu&#x308;tenahiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/Namu-tenahiApp/Namu%CC%88tenahiApp/MakeYourDesignView.swift"
+                  timestampString = "516637668.282282"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Namu_tenahiApp.MakeYourDesignView.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Namu_tenahiApp.MakeYourDesignView&gt;"
+                  moduleName = "Namu&#x308;tenahiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/Namu-tenahiApp/Namu%CC%88tenahiApp/MakeYourDesignView.swift"
+                  timestampString = "516637668.303747"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Namu&#x308;tenahiApp/MakeYourDesignView.swift"
+            timestampString = "516638682.593245"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

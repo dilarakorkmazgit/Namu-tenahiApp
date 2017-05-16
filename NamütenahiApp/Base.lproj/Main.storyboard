@@ -160,9 +160,12 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iMg-E5-n5L">
-                                <rect key="frame" x="19" y="275" width="136" height="30"/>
+                                <rect key="frame" x="21" y="275" width="136" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="kendi tasarımını yap"/>
+                                <connections>
+                                    <segue destination="ZS9-4d-mHQ" kind="show" id="gXk-72-kr4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5RA-Sh-ckR">
                                 <rect key="frame" x="209" y="275" width="143" height="30"/>
@@ -236,6 +239,7 @@
                     </view>
                     <connections>
                         <outlet property="TableView" destination="Xea-N3-Emj" id="Oqf-RR-epo"/>
+                        <outlet property="productImage" destination="ELO-8W-cup" id="s5h-Kx-l3i"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hfH-x0-1la" userLabel="First Responder" sceneMemberID="firstResponder"/>
