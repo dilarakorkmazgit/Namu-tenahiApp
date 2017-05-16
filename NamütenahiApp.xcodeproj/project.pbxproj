@@ -14,6 +14,7 @@
 		3CD374691EB7BC9B00080DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD374671EB7BC9B00080DC4 /* Main.storyboard */; };
 		3CD3746E1EB7BC9B00080DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD3746C1EB7BC9B00080DC4 /* LaunchScreen.storyboard */; };
 		3CD374761EB7BE4F00080DC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CD374751EB7BE4F00080DC4 /* GoogleService-Info.plist */; };
+		3CDE79261ECB291B00976D48 /* MakeYourDesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDE79251ECB291B00976D48 /* MakeYourDesignView.swift */; };
 		9FE54AEBCA72EF7DBA896F23 /* Pods_Namu_tenahiApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035A586045AA4EE56A3D0834 /* Pods_Namu_tenahiApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		3CD3746D1EB7BC9B00080DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CD3746F1EB7BC9C00080DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CD374751EB7BE4F00080DC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3CDE79251ECB291B00976D48 /* MakeYourDesignView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeYourDesignView.swift; sourceTree = "<group>"; };
 		A0753BE873BC76A3AA236A63 /* Pods-NamütenahiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NamütenahiApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NamütenahiApp/Pods-NamütenahiApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +79,7 @@
 				3CD374631EB7BC9B00080DC4 /* AppDelegate.swift */,
 				3CD374651EB7BC9B00080DC4 /* ViewController.swift */,
 				3CD374671EB7BC9B00080DC4 /* Main.storyboard */,
+				3CDE79251ECB291B00976D48 /* MakeYourDesignView.swift */,
 				3CC035921EB89B6C004749AE /* UserProfileView.swift */,
 				3C0654901EB9096C00BBF7BA /* Assets.xcassets */,
 				3CD374751EB7BE4F00080DC4 /* GoogleService-Info.plist */,
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CD374661EB7BC9B00080DC4 /* ViewController.swift in Sources */,
+				3CDE79261ECB291B00976D48 /* MakeYourDesignView.swift in Sources */,
 				3CC035931EB89B6C004749AE /* UserProfileView.swift in Sources */,
 				3CD374641EB7BC9B00080DC4 /* AppDelegate.swift in Sources */,
 			);
