@@ -235,8 +235,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="ProductImage" destination="FBe-OH-JQz" id="aET-zD-tUV"/>
-                        <outlet property="ProductNameLabel" destination="A6K-zd-3zH" id="Xoa-ld-oe0"/>
+                        <outlet property="TableView" destination="Xea-N3-Emj" id="Oqf-RR-epo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hfH-x0-1la" userLabel="First Responder" sceneMemberID="firstResponder"/>

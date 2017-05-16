@@ -14,16 +14,10 @@ class MakeYourDesignView: UIViewController {
     
     @IBOutlet weak var ProductImage: UIView!
     
+    @IBOutlet weak var TableView: UITableView!
     
     @IBOutlet weak var ProductNameLabel: UILabel!
-    
-    
-    
-    
-    
-    
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
